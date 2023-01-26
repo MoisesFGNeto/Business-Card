@@ -1,0 +1,201 @@
+
+
+body{
+    background: #23252C;
+    position: relative;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+#profileImage{
+    display: flex;
+    justify-content: center;
+}
+
+.photoProfile{
+    width: 317px;
+    height: 317px;
+    border-radius: 10% 10% 0 0;
+    border: 1px solid #000000;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+
+.name{
+    font-family: 'Inter';
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 30px;
+    text-align: center;
+    color: #FFFFFF;
+}
+.wrapper{
+    background: #1A1B21;
+    width: 317px;
+    position: absolute;
+
+    border-radius: 10% 10% 0 0;
+    
+}
+
+.position{
+    color: #F3BF99;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 12.8px;
+    text-align: center;
+}
+
+.personalSite {
+    color: #F5F5F5;
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 10.24px;
+    line-height: 150%;
+    /* identical to box height, or 15px */
+    text-align: center;
+}
+.buttons {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 10px;
+    }
+.buttons .button {
+    width: 115px;
+    height: 34px;
+    border: 0;
+}
+a {
+    color: black;
+}
+.email{
+    background: #FFFFFF;
+    border: 1px solid #D1D5DB;
+    border-radius: 6px;
+
+}
+.buttons .linkedin a{
+    text-decoration: none;
+    
+}
+.buttons .email a{
+    text-decoration: none;
+    
+}
+
+.buttons > .button > .icon{
+    margin: 20px 8px 5px 0;
+}
+
+.linkedin{
+    background: #5093E2;
+    border-radius: 6px;
+    border: 1px solid #D1D5DB;
+    align-content: center;
+
+}
+
+.about{
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 150%;
+    color: #F5F5F5;
+    text-align: center;
+    margin: 30px 198px 0 0;
+}
+
+.aboutParagraph{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10.24px;
+    line-height: 150%;
+    text-align: start;
+    color: #DCDCDC;
+}
+
+.center-about{
+    display: flex;
+    justify-content: center;
+}
+
+.interests-title{
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 150%;
+    color: #F5F5F5;
+    text-align: center;
+    margin: 30px 175px 0 0;
+}
+
+.flex-interests{
+    display: flex;
+    justify-content: center;
+}
+
+.Interests-paragraph{
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10.24px;
+    line-height: 150%;
+    text-align: start;
+    color: #DCDCDC;
+    margin-bottom: 30px;
+}
+
+.footer{
+    width: 317px;
+    height: 64px;   
+    background: #161619;
+    border-radius: 0px 0px 10px 10px;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto
+}
+.social-icons{
+    margin: 22px 30px 0 0;
+}
+.twitter, .facebook, .instagram, .github{
+    background: #918E9B;
+    font-size: 18px;
+    margin-left: 30px;
+    padding: 4px;
+    border-radius: 5px 5px 5px 5px;
+    display: inline-block;
+}
+/* :Hover buttons and Icons */
+.buttons .email:hover{
+background-color: darkgray;
+border: 0;
+}
+
+.buttons .linkedin:hover{
+    background-color: darkgrey;
+    border: 0;
+}
+
+.social-icons .twitter:hover {
+    background-color: #5093E2;
+    cursor: pointer;
+}
+
+.social-icons .facebook:hover {
+    background-color: #5093E2;
+    cursor: pointer;
+}
+
+.social-icons .instagram:hover {
+    background-color: #5093E2;
+    cursor: pointer;
+}
+
+.social-icons .github:hover {
+    background-color: #5093E2;
+    cursor: pointer;
+}
