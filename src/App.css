@@ -3,7 +3,7 @@
 body{
     background: #23252C;
     position: relative;
-    margin: 0;
+    margin-top: 13px;
     display: flex;
     justify-content: center;
 }
