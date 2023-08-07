@@ -1,6 +1,6 @@
-import React from "react"
-import Photo from "../profilePhoto.png"
-import {FaEnvelope,FaLinkedin} from "react-icons/fa"
+import React from "react";
+import Photo from "../profilePhoto.jpg";
+import {FaEnvelope,FaLinkedin} from "react-icons/fa";
 
 
 export default function Info(){

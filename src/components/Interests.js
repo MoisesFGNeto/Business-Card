@@ -5,8 +5,8 @@ export default function Interests(){
         <div>
         <h2 className="interests-title">Interests</h2>
         <div className="flex-interests">
-            <p className="Interests-paragraph">Food/Wine lover, Good Music. Sunsets photos.<br/> Internet fanatic. WorkOut. Proggraming. Footbal<br/>
-            Entrepreneur. VideoGames. Coffee fanatic.
+            <p className="Interests-paragraph">Travel, Good Music. Sunsets photos.<br/> Technology. Web Development. Programming. <br/>
+            Entrepreneur. Culture. Books. WorkOut.
             </p>
         </div>
         
